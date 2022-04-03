@@ -12,18 +12,19 @@
     <title>Document</title>
 </head>
 <body>
+
     <div class="title-wrapper">
         <h2> Localizator </h2>
     </div>
     
     <div class="map-wrapper">
         <div class="map-tittle"> <h4>Click button to find your localisation </h3> </div>
-        <div id="map" class="map-box">
-
+            <div id="map" class="map-box">
         </div>    
     </div>
 
     <div class="btn-wrapper">
+        <button onclick="changeWindow('index.html')" type="button" class="map-btn btn btn-danger">Back</button>
         <button onclick="geoFindMe()" type="button" class="map-btn btn btn-success">Click here!</button>
     </div>
 
@@ -59,21 +60,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 3rem;
+    padding: 3rem 2rem 0 2rem;
 }
 .map-box {
-    width: 50rem;
+    width: clamp(25rem,70vw,70rem);
     height: 30rem;
     margin: 1rem 0;
+    background-color: rgb(211, 211, 211);
 }
 .btn-wrapper {
     width: 100%;
+    padding: 0 20rem;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    justify-content: center;
 }
 .map-btn {
     margin-top: 1.5rem;
-    width: 20%;
+    width: 25%;
 }
 
 </style>
