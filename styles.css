@@ -4,10 +4,10 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 10rem;
-    background-color: #82c982b2;
+    min-height: 5rem;
+    background-color: #037e03b2;
     padding: 1rem 0;
-    color: rgb(63, 63, 63);
+    color: rgb(20, 20, 20);
     font-size: 1rem;
 }
 .menu-wrapper {
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 0rem;
-    min-height: 60rem;  
+    min-height: 44rem;  
     margin: 0 !important;
 }
 .footer-wrapper {
@@ -24,8 +24,8 @@
     flex-direction: column;
     width:100%;
     min-height: 10rem;
-    background-color: #82c982;
-    color: rgb(63, 63, 63);
+    background-color: #037e03b2;;
+    color: rgb(20, 20, 20);
 }
 .menu-wrapper > * {
     margin: 1rem 4rem;
@@ -61,7 +61,7 @@
     display: flex;
     justify-content: center;
     width: 80%;
-    color: rgb(102, 102, 102);
+    color: rgb(20, 20, 20);
 }
 .authors-row > * {
     max-width: 15rem;
