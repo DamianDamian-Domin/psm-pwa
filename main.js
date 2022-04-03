@@ -33,3 +33,7 @@ function geoFindMe() {
     }
 
 }
+
+function vibrate() {
+    navigator.vibrate([30,100,200])
+}
