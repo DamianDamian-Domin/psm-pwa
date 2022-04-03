@@ -23,9 +23,15 @@
         </div>    
     </div>
 
-    <div class="btn-wrapper">
-        <button onclick="changeWindow('index.html')" type="button" class="map-btn btn btn-danger">Back</button>
-        <button onclick="geoFindMe()" type="button" class="map-btn btn btn-success">Click here!</button>
+    <div class="btn-wrapper container">
+        <div class="row">
+            <div class="col-md-6 btn-wrapper">
+                <button onclick="changeWindow('index.html')" type="button" class="map-btn btn btn-danger">Back</button>
+            </div>
+            <div class="col-md-6 btn-wrapper">
+                <button onclick="geoFindMe()" type="button" class="map-btn btn btn-success">Click here!</button>
+            </div>
+        </div>
     </div>
 
 </body>
@@ -49,17 +55,13 @@
     background-color: rgb(211, 211, 211);
 }
 .btn-wrapper {
-    width: 100%;
-    padding: 0 20rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    justify-content: center;
+    justify-content: center !important;
+    align-items: center !important;
 }
 .map-btn {
     margin-top: 1.5rem;
-    width: 25%;
+    width: 15rem;
 }
 
 </style>
