@@ -1,13 +1,17 @@
-
+body {
+    background-color: #fa7a2415;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .title-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     min-height: 5rem;
-    background-color: #037e03b2;
+    background-color: #fa7a2415;
     padding: 1rem 0;
     color: rgb(20, 20, 20);
+    font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
 }
 .menu-wrapper {
@@ -24,7 +28,7 @@
     flex-direction: column;
     width:100%;
     min-height: 10rem;
-    background-color: #037e03b2;;
+    background-color: #fa7a2415;
     color: rgb(20, 20, 20);
 }
 .menu-wrapper > * {
