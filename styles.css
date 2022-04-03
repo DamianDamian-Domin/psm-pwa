@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
     background-color: #5cb85c;
     padding: 1rem 0;
 }
@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 43rem;
     padding: 1rem 5rem;
 
 }
@@ -22,12 +22,13 @@
     margin: 1rem 4rem;
 }
 .card {
-    height: 23rem;
+    min-height: 25rem;
+    
 }
 .card-body {
     display: flex;
     flex-direction: column;
-    height: 8rem;
+    min-height: 8rem;
 }
 .card-img-top {
     padding: 0.5rem;
@@ -43,9 +44,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 20vh;
+    bottom:0;
+    width:100%;
+    min-height: 10rem;
     background-color: #5cb85c;
-    width: 100vw;
 }
 .footer-title-wrapper {
     margin-top: 1rem;
@@ -87,4 +89,7 @@
 .map-btn {
     margin-top: 1.5rem;
     width: 15rem;
+}
+.img-vib {
+    max-width: 300px;
 }
