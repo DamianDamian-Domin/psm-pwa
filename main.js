@@ -11,7 +11,8 @@ function geoFindMe() {
 
         var mapOptions = {
             center: [latitude, longitude],
-            zoom: 17
+            zoom: 17,
+            pin: true
         }
     
         var map = new L.map('map', mapOptions);
