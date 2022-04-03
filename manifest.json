@@ -6,7 +6,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "damiandamian-domin.github",
-  "start_url": "/index.html",
+  "start_url": "./index.html",
   "theme_color": "#3ce619",
   "icons": [
     {

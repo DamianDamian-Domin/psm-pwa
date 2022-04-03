@@ -36,5 +36,5 @@ function geoFindMe() {
 }
 
 function vibrate() {
-    navigator.vibrate([50,50,50,200,200,200,50,50,50])
+    navigator.vibrate([100,30,100,30,100,30,200,30,200,30,200,30,100,30,100,30,100]);
 }
