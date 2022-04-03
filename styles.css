@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 75vh;
+    min-height: 80vh;
     padding: 1rem 5rem;
 
 }
@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 15vh;
+    height: 20vh;
     background-color: #5cb85c;
     width: 100vw;
 }
