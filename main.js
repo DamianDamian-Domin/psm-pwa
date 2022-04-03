@@ -36,10 +36,8 @@ function geoFindMe() {
 }
 
 function vibrate() {
-    navigator.vibrate([50,1,50,1,50])
-    navigator.vibrate(0)
-    navigator.vibrate([100,1,100,1,100])
-    navigator.vibrate(0)
-    navigator.vibrate([300,1,300,1,300])
+    navigator.vibrate([50,50,50])
+    navigator.vibrate([100,100,100])
+    navigator.vibrate([50,50,50])
     navigator.vibrate(0)
 }
