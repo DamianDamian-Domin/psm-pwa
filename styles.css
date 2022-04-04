@@ -1,5 +1,5 @@
 body {
-    background-color: #fa242415;
+    background-color: #fd212115;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .title-wrapper {
@@ -8,7 +8,7 @@ body {
     align-items: center;
     width: 100%;
     min-height: 5rem;
-    background-color: #fa7a2415;
+    background-color: #fc792215;
     padding: 1rem 0;
     color: rgb(20, 20, 20);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -29,7 +29,7 @@ body {
     width:100%;
     min-height: 10rem;
     background-color: #fa7a2415;
-    color: rgb(20, 20, 20);
+    color: rgb(19, 19, 19);
 }
 .menu-wrapper > * {
     margin: 1rem 4rem;
@@ -37,7 +37,7 @@ body {
 .card {
     min-height: 25%;  
     transition: all .5s ease-out;
-    box-shadow: 8px 11px 13px -9px rgba(66, 68, 90, 1);
+    box-shadow: 7px 10px 12px -8px rgb(63, 64, 82);
 }
 .card:hover {
     transform: scale(1.1);
